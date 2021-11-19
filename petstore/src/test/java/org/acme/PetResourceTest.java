@@ -25,7 +25,7 @@ public class PetDataTest {
     }
 
     @Test
-    public void testPetAddEndpoint(){
+    public void testPetAddEndpointSuccess(){
         given()
                 .header("Content-Type","application/json")
                 .body("{\r\n    \"name\":\"neo\",\r\n  \"age\":10,\r\n   \"type\":\"Dog\"\r\n}")
